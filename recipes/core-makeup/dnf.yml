@@ -1,0 +1,17 @@
+modules:
+  - type: dnf
+    install:
+      packages:
+        - android-tools # adb/fastboot for Android devices (Needed to install GrapheneOS, our recommended Android based OS
+        - syncthing
+        - kamoso # need to find GTK replacement
+        - haruna # need to find MPV specific replacement, Celluloid is a good alternaitve but missing QoL features
+        - kcalc # need to find GTK replacement
+        - gwenview # need to find GTK replacement
+        - strawberry # I wish there was a GTK replacement that has proper DAC control via ALSA however there simply isn't
+        - okular # might find a GTK replacement but this is known to have great features
+        - qbittorrent # much more configuable than GTK alternatives, will be kept
+        - gnome-shell-extension-blur-my-shell
+        - gnome-shell-extension-dash-to-dock
+        - gnome-shell-extension-gsconnect
+        - gnome-shell-extension-pop=shell

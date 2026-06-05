@@ -1,0 +1,14 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - io.github.peazip.PeaZip # advanced archiving software
+          - com.github.tchx84.Flatseal
+          - com.usebottles.bottles
+          - io.github.flattool.Warehouse
+          - com.obsproject.Studio
+          - org.blender.Blender
+          - org.gimp.GIMP
+          - org.kde.kdenlive

@@ -1,5 +1,9 @@
 # wheaton-os &nbsp; [![bluebuild build badge](https://github.com/liachra/wheaton-os/actions/workflows/build.yml/badge.svg)](https://github.com/liachra/wheaton-os/actions/workflows/build.yml)
+A new Linux image based distro with sensible security & Quality of Life changes.
+More info once a basic setup is working. Very early stages, please follow [Liam](https://liam.oluachra.id.au/wheaton-os) for updates.
 
+----
+# BlueBuild default readme
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
 After setup, it is recommended you update this README to describe your custom image.
@@ -41,3 +45,8 @@ These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](ht
 ```bash
 cosign verify --key cosign.pub ghcr.io/liachra/wheaton-os
 ```
+
+## Upstream Credits
+[BlueBuild](https://blue-build.org)
+[SecureBlue](https://secureblue.dev)
+[Fedora](https://fedoraproject.org)

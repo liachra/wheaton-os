@@ -1,0 +1,3 @@
+type: kargs
+kargs:
+    - ia32_emulation=0 # Disables 32bit program support. This solves exploit using this feature. Typically only gamers need 32bit support for Steam so this isn't included in gaming editions. Note Valve is expermimenting a Beta version of Steam that doesn't require 32bit support. Once proven stable all editions will loose support for 32bit.
