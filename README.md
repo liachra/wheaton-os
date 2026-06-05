@@ -47,6 +47,6 @@ cosign verify --key cosign.pub ghcr.io/liachra/wheaton-os
 ```
 
 ## Upstream Credits
-[BlueBuild](https://blue-build.org)
-[SecureBlue](https://secureblue.dev)
+[BlueBuild](https://blue-build.org)<br>
+[SecureBlue](https://secureblue.dev)<br>
 [Fedora](https://fedoraproject.org)
