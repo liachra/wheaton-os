@@ -4,8 +4,8 @@ modules:
       - notify: true
         scope: system
         install:
-          - io.github.peazip.PeaZip # advanced archiving software
+          - io.github.peazip.PeaZip # advanced archiving software with capabilities on par with Windows packages 7zip and WinRAR
           - com.github.tchx84.Flatseal
           - com.usebottles.bottles
           - io.github.flattool.Warehouse
-          - com.obsproject.Studio
+          - com.obsproject.Studio # advanced video recording and live streaming software with capabilities
