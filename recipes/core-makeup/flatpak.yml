@@ -9,3 +9,8 @@ modules:
           - com.usebottles.bottles
           - io.github.flattool.Warehouse
           - com.obsproject.Studio # advanced video recording and live streaming software with capabilities
+        repo:
+          title: GeForce Now
+          url: https://international.download.nvidia.com/GFNLinux/flatpak/geforcenow.flatpakrepo
+        install:
+          - com.nvidia.geforcenow # GeForce Now client for Linux, allowing access to a wide range of games via cloud gaming
