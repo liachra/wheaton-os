@@ -1,5 +1,5 @@
 # wheaton-os &nbsp; [![bluebuild build badge](https://github.com/liachra/wheaton-os/actions/workflows/build.yml/badge.svg)](https://github.com/liachra/wheaton-os/actions/workflows/build.yml)
-A Linux image based distro with sensible & Quality of Life changes.
+## A Linux image based distro with sensible & Quality of Life changes.
 There are three images
   - wheaton-os **[MAIN]**:
   
@@ -8,7 +8,14 @@ There are three images
     *A developer focused distro with enhancments tailed around cloud-native development. VS-Code with devcontainers & Docker preinstalled. KVM for virtualisation support.*
   - wheaton-os:opsec ***[ALPHA]***:
 
-    *A security focused distro based on the [SecureBlue](secureblue/secureblue) image. Has a strong security focused setup with hard security changes made to Fedora and the Linux kernel. This image is a dev image focused for technical users who require extra sensible hardening to their operating environment without going to the extreme. Only use this image if you have an stronger than average understanding of linux sysops. More information [here](opsec.md).*
+    *A security focused distro based on the [SecureBlue](secureblue/secureblue) image. Has a strong security focused setup with hard security changes made to Fedora and the Linux kernel. This image is a dev image focused for technical users who require extra sensible hardening to their operating environment without going to the extreme. Only use this image if you have an stronger than average understanding of linux sysops. More information [here](opsec.md).* 
+~~
+Features added
+- System packages for media applications to make use of Fedora's up-to-date libraries (i.e. native ffmpeg library higher than version included in Haruna Flatpak).
+- Dynamic laptop lid close action
+  1. Battery = Suspend
+  2. External = ignore
+  3. Docking Station/Desktop Mode = ignore
 
 Nvidia compatability is cuurently not implemented. Feature coming soon.
 
