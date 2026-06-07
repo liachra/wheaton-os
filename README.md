@@ -10,7 +10,7 @@ There are three images
 
     *A security focused distro based on the [SecureBlue](secureblue/secureblue) image. Has a strong security focused setup with hard security changes made to Fedora and the Linux kernel. This image is a dev image focused for technical users who require extra sensible hardening to their operating environment without going to the extreme. Only use this image if you have an stronger than average understanding of linux sysops. More information [here](opsec.md).*
 
-Nvidia support is cuurently not implemented. Feature coming soon.
+Nvidia compatability is cuurently not implemented. Feature coming soon.
 
 ----
 # BlueBuild default readme
