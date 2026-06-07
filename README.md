@@ -1,6 +1,12 @@
 # wheaton-os &nbsp; [![bluebuild build badge](https://github.com/liachra/wheaton-os/actions/workflows/build.yml/badge.svg)](https://github.com/liachra/wheaton-os/actions/workflows/build.yml)
-A new Linux image based distro with sensible security & Quality of Life changes.
-More info once a basic setup is working. Very early stages, please follow [Liam](https://liam.oluachra.id.au/wheaton-os) for updates.
+A new Linux image based distro with sensible & Quality of Life changes.
+There are two images
+  - wheaton-os **[MAIN]**
+    *A general purpose distro suitible for everyday tasks & gaming. Suitible for everyone.*
+  - wheaton-os:opsec ***[ALPHA]***
+    *A security focused distro based on the [SecureBlue](secureblue/secureblue) image. Has a strong security focused setup with hard security changes made to Fedora and the Linux kernel. This image is a dev image focused for technical users who require extra sensible hardening to their operating environment without going to the extreme. Only use this image if you have an stronger than average understanding of linux sysops.[[1]](1)*
+    
+    [1]*This image is intended to be merged into the main image(s), the plan is to build user friendly defaults for general purpose use with a GUI front end for easy modifications ontop of SecureBlue's ujust commands.
 
 ----
 # BlueBuild default readme
@@ -48,5 +54,6 @@ cosign verify --key cosign.pub ghcr.io/liachra/wheaton-os
 
 ## Upstream Credits
 [BlueBuild](https://blue-build.org)<br>
+[Universal Blue & Bazzite](bazzite.gg)<br>
 [SecureBlue](https://secureblue.dev)<br>
 [Fedora](https://fedoraproject.org)
