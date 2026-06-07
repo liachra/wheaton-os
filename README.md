@@ -12,7 +12,7 @@ There are three images
   - wheaton-os:opsec ***[ALPHA]***:
 
     *A security focused distro based on the [SecureBlue](secureblue/secureblue) image. Has a strong security focused setup with hard security changes made to Fedora and the Linux kernel. This image is a dev image focused for technical users who require extra sensible hardening to their operating environment without going to the extreme. Only use this image if you have an stronger than average understanding of linux sysops. More information [here](opsec.md).* 
-~~
+~~~~
 Features added
 - System packages for media applications to make use of Fedora's up-to-date libraries (i.e. native ffmpeg library higher than version included in Haruna Flatpak).
 - Dynamic laptop lid close action
