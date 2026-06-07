@@ -28,6 +28,7 @@ jobs:
         recipe:
           # !! Add your recipes here
           - wheaton-os.yml
+          - wheaton-os-dx.yml
           - wheaton-os-opsec.yml
     steps:
       # the build is fully handled by the reusable github action

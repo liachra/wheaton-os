@@ -1,9 +1,11 @@
 # wheaton-os &nbsp; [![bluebuild build badge](https://github.com/liachra/wheaton-os/actions/workflows/build.yml/badge.svg)](https://github.com/liachra/wheaton-os/actions/workflows/build.yml)
 A Linux image based distro with sensible & Quality of Life changes.
-There are two images
+There are three images
   - wheaton-os **[MAIN]**:
   
     *A general purpose distro suitible for everyday tasks & gaming. Suitible for everyone.*
+  - wheaton-os-dx **[Main]**:
+    *A developer focused distro with enhancments tailed around cloud-native development. VS-Code with devcontainers & Docker preinstalled. KVM for virtualisation support.*
   - wheaton-os:opsec ***[ALPHA]***:
 
     *A security focused distro based on the [SecureBlue](secureblue/secureblue) image. Has a strong security focused setup with hard security changes made to Fedora and the Linux kernel. This image is a dev image focused for technical users who require extra sensible hardening to their operating environment without going to the extreme. Only use this image if you have an stronger than average understanding of linux sysops. More information [here](opsec.md).*
