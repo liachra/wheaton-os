@@ -9,6 +9,10 @@ modules:
           - com.usebottles.bottles
           - io.github.flattool.Warehouse
           - com.obsproject.Studio # advanced video recording and live streaming software with capabilities
+          - io.gitlab.adhami3310.Converter # versatile image converter and manipulator with support for a wide range of formats and features
+        scope: user
+          install:
+          - net.retrodeck.retrodeck # Suite of video game emulators and management tools, providing a comprehensive gaming experience
         repo:
           title: GeForce Now
           url: https://international.download.nvidia.com/GFNLinux/flatpak/geforcenow.flatpakrepo
