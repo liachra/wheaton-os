@@ -1,0 +1,4 @@
+org.gnome.Loupe # inplace of system package
+org.gnome.Snapshot # inplace of system package
+org.gnome.Showtime # inplace of Hurana system package, Qt program with better features than GTK alternatives
+org.gnome.Papers # inplace of Okular system package, Qt program with better features

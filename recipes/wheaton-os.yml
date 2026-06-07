@@ -16,5 +16,6 @@ modules:
   - from-file: recipes/core-makeup/flatpak.yml
   - from-file: recipes/core-kargs/nosmt.yml
   - from-file: recipes/core-makeup/brave-browser.yml # Will be replaced by SecureBlue's Trivalent once a P2P browser sync tool is built (simular to XBrowserSync), if at all possible
+  - fron-file: recipes/core-makeup/bazzite-removals.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
