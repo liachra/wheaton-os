@@ -9,6 +9,3 @@ modules:
           - com.usebottles.bottles
           - io.github.flattool.Warehouse
           - com.obsproject.Studio
-          - org.blender.Blender
-          - org.gimp.GIMP
-          - org.kde.kdenlive
