@@ -1,5 +1,5 @@
 # wheaton-os &nbsp; [![bluebuild build badge](https://github.com/liachra/wheaton-os/actions/workflows/build.yml/badge.svg)](https://github.com/liachra/wheaton-os/actions/workflows/build.yml)
-A new Linux image based distro with sensible & Quality of Life changes.
+A Linux image based distro with sensible & Quality of Life changes.
 There are two images
   - wheaton-os **[MAIN]**
     *A general purpose distro suitible for everyday tasks & gaming. Suitible for everyone.*
