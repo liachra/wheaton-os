@@ -1,0 +1,22 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# image will be published to ghcr.io/<user>/<name>
+name: wheaton-os:lts
+description: A sensible linux distro with QoL improvements, based on AlmaLinux for long term stability support.
+
+base-image: ghcr.io/ublue-os/bluefin:lts
+image-version: latest
+
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: /
+  - from-file: recipes/core-makeup/dnf.yml
+  - from-file: recipes/core-makeup/flatpak.yml
+  - from-file: recipes/core-kargs/nosmt.yml
+  - from-file: recipes/core-makeup/brave-browser.yml
+  - from-file: recipes/core-kargs/32bit-disable.yml
+  - from-file: recipes/core-makeup/bazzite-removals.yml
+
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully

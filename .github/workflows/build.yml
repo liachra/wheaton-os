@@ -30,6 +30,7 @@ jobs:
           - wheaton-os.yml
           - wheaton-os-dx.yml
           - wheaton-os-opsec.yml
+          - wheaton-os-lts.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image

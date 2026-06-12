@@ -5,7 +5,11 @@ There are three images
   
     *A general purpose distro suitible for everyday tasks & gaming. Suitible for everyone.*
 
-  - wheaton-os-dx **[Main]**:
+  - wheaton-os:lts *[Early Development]*:
+
+    *A Long-term Support release. Focused on long term stability over fequent updates. Great on older machines or production environments and workspaces.*
+
+  - wheaton-os-dev **[Main]**:
 
     *A developer focused distro with enhancments tailed around cloud-native development. VS-Code with devcontainers & Docker preinstalled. KVM for virtualisation support.*
     
