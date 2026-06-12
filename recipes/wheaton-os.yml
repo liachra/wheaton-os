@@ -12,10 +12,10 @@ modules:
     files:
       - source: system
         destination: /
-  - from-file: recipes/core-makeup/dnf.yml
-  - from-file: recipes/core-makeup/flatpak.yml
-  - from-file: recipes/core-kargs/nosmt.yml
-  - from-file: recipes/core-makeup/brave-browser.yml
-  - from-file: recipes/core-makeup/bazzite-removals.yml
+  - from-file: core-makeup/dnf.yml
+  - from-file: core-makeup/flatpak.yml
+  - from-file: core-kargs/nosmt.yml
+  - from-file: core-makeup/brave-browser.yml
+  - from-file: core-makeup/bazzite-removals.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
