@@ -14,3 +14,4 @@ modules:
         - gnome-shell-extension-dash-to-dock
         - gnome-shell-extension-gsconnect
         - thunderbird
+        - waydroid # Android in a container, allows you to run Android apps on Linux.
