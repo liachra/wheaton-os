@@ -1,9 +1,13 @@
 # wheaton-os &nbsp; [![bluebuild build badge](https://github.com/liachra/wheaton-os/actions/workflows/build.yml/badge.svg)](https://github.com/liachra/wheaton-os/actions/workflows/build.yml)
 ## A Linux image based distro with sensible & Quality of Life changes.
-There are three images
-  - wheaton-os **[MAIN]**:
+There are four images
+  - wheaton-os **[Main]**:
   
     *A general purpose distro suitible for everyday tasks & gaming. Suitible for everyone.*
+
+  - wheaton-os:lts *[Early Development]*:
+
+    *A Long Term Support image based on AlmaLinux for stability. Great for people who prioritise a stable system over the latest features. If you have older harware, use this image unless you particulaly want a more up to date system.*
 
   - wheaton-os-dx **[Main]**:
 
